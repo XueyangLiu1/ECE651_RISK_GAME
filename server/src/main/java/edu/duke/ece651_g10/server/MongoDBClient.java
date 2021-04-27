@@ -25,7 +25,7 @@ import org.json.JSONObject;
  * The class to update the game and user information into database
  */
 public class MongoDBClient {
-    static String connectionString = "mongodb+srv://g10:ece651@risk.3iprc.mongodb.net/ece651_risk?retryWrites=true&w=majority";
+    static String connectionString = "your mongodb uri";
 
     /**
      * The constructor of the MongoDBClient

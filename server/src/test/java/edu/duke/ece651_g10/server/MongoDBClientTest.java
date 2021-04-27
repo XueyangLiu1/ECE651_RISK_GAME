@@ -15,7 +15,7 @@ public class MongoDBClientTest {
     game.assignInitialTerritories();
     Server server = new Server(1234, new V2ServerPasswordGenerator());
     MongoDBClient mongoClient = new MongoDBClient(
-        "mongodb+srv://g10:ece651@cluster0.jjos5.mongodb.net/ece651_risk?retryWrites=true&w=majority");
+        "your mongodb uri");
     MongoDBClient.addGame2DB(game);
     MongoDBClient.reconstructGameFromDatabase();
     MongoDBClient.addServer2DB(server);
